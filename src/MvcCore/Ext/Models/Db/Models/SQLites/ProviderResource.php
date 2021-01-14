@@ -16,6 +16,12 @@ namespace MvcCore\Ext\Models\Db\Models\SQLites;
 trait ProviderResource {
 	
 	/**
+	 * Provider specific driver name.
+	 * @var string|NULL
+	 */
+	protected static $providerDriverName = 'sqlite';
+
+	/**
 	 * Connection class full name, specific for each extension.
 	 * @var string
 	 */
