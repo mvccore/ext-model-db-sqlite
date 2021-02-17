@@ -19,7 +19,7 @@ implements	\MvcCore\Ext\Models\Db\Model\IConstants {
 
 	/**
 	 * @inheritDocs
-	 * @param string $identifierName
+	 * @param  string $identifierName
 	 * @return string
 	 */
 	public function QuoteName ($identifierName) {
