@@ -13,6 +13,9 @@
 
 namespace MvcCore\Ext\Models\Db\Models\SQLites;
 
+/**
+ * @mixin \MvcCore\Ext\Models\Db\Models\SQLites\Features
+ */
 trait ProviderResource {
 	
 	/**
