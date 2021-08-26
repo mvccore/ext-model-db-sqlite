@@ -16,15 +16,10 @@ namespace MvcCore\Ext\Models\Db\Models;
 class		SQLite
 implements	\MvcCore\IModel,
 			\MvcCore\Ext\Models\Db\IModel,
-			\MvcCore\Ext\Models\Db\Model\IConstants {
+			\MvcCore\Ext\Models\Db\Model\IConstants,
+			\JsonSerializable {
 	
-	use \MvcCore\Model\Props;
-	use \MvcCore\Model\Config;
-	use \MvcCore\Model\Resource;
-	use \MvcCore\Model\Converters;
-	use \MvcCore\Model\Comparers;
-
-	use \MvcCore\Ext\Models\Db\Models\SQLites\Features;
+	use \MvcCore\Ext\Models\Db\Models\SQLite\Features;
 
 	/**
 	 * MvcCore Extension - Model - Db - version:

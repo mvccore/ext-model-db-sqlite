@@ -11,15 +11,11 @@
  * @license		https://mvccore.github.io/docs/mvccore/5.0.0/LICENSE.md
  */
 
-namespace MvcCore\Ext\Models\Db\Models\Resources;
+namespace MvcCore\Ext\Models\Db\Resources;
 
-class SQLite implements \MvcCore\Ext\Models\Db\Model\IConstants {
-
-	use \MvcCore\Model\Props;
-	use \MvcCore\Model\Config;
-	use \MvcCore\Model\Comparers;
-	use \MvcCore\Model\Converters;
-
-	use \MvcCore\Ext\Models\Db\Models\Resources\Features;
-	use \MvcCore\Ext\Models\Db\Models\SQLites\ProviderResource;
+class		SQLite
+implements	\MvcCore\Model\IConstants,
+			\MvcCore\Ext\Models\Db\Model\IConstants {
+	
+	use \MvcCore\Ext\Models\Db\Resources\SQLite\Features;
 }
