@@ -18,7 +18,7 @@ extends		\MvcCore\Ext\Models\Db\Connection
 implements	\MvcCore\Ext\Models\Db\Model\IConstants {
 
 	/**
-	 * @inheritDocs
+	 * @inheritDoc
 	 * @param  string $identifierName
 	 * @return string
 	 */
